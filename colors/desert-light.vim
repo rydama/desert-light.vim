@@ -3,7 +3,7 @@ syntax reset
 let g:colors_name = "desert-light"
 set background=light
 set t_Co=256
-hi Normal guifg=#1f1f28 ctermbg=NONE guibg=#ffd7af gui=NONE
+hi Normal guifg=#1f1f28 ctermbg=NONE guibg=#d7d7af gui=NONE
 
 hi DiffText guifg=#df3232 guibg=NONE
 hi ErrorMsg guifg=#df3232 guibg=NONE
@@ -60,17 +60,17 @@ hi cssAttr guifg=#25a2ab guibg=NONE
 
 
 hi Pmenu guifg=#1f1f28 guibg=#ffd900
-hi SignColumn guibg=#ffd7af
+hi SignColumn guibg=#d7d7af
 hi Title guifg=#1f1f28
-hi LineNr guifg=#7b7b98 guibg=#ffd7af
-hi NonText guifg=#b53fde guibg=#ffd7af
+hi LineNr guifg=#7b7b98 guibg=#d7d7af
+hi NonText guifg=#b53fde guibg=#d7d7af
 hi Comment guifg=#b53fde gui=italic
-hi SpecialComment guifg=#b53fde gui=italic guibg=#ffd7af
+hi SpecialComment guifg=#b53fde gui=italic guibg=#d7d7af
 hi CursorLine guibg=#ffd900
 hi TabLineFill gui=NONE guibg=#ffd900
 hi TabLine guifg=#7b7b98 guibg=#ffd900 gui=NONE
 hi StatusLine gui=bold guibg=#ffd900 guifg=#1f1f28
-hi StatusLineNC gui=NONE guibg=#ffd7af guifg=#1f1f28
-hi Search guibg=#b53fde guifg=#ffd7af
+hi StatusLineNC gui=NONE guibg=#d7d7af guifg=#1f1f28
+hi Search guibg=#b53fde guifg=#d7d7af
 hi VertSplit gui=NONE guifg=#000000 guibg=NONE
 hi Visual gui=NONE guibg=#ffd900
